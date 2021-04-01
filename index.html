@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batu Gunting Kertas Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-app">
+      <header class="header-app"><h2>Batu Kertas Gunting</h2></header>
+      <div class="papan-score">
+        <div class="lambang" id="user-label">User</div>
+        <div class="lambang" id="comp-label">Comp</div>
+        <div class="score">
+          <span class="user-score">0</span>:<span class="comp-score">0</span>
+        </div>
+      </div>
+      <div class="hasil">
+        <p>Pilih pilihan kamu, gimana hasilnya?</p>
+      </div>
+      <div class="choices">
+        <div class="choice" id="b">
+          <img src="images/rock.png" alt="Batu" width="50px" />
+        </div>
+        <div class="choice" id="g">
+          <img src="images/scissor.png" alt="Gunting" width="50px" />
+        </div>
+        <div class="choice" id="k">
+          <img src="images/paper.png" alt="Kertas" width="50px" />
+        </div>
+      </div>
+
+      <p class="pesan-aksi">Tentukan Pilihanmu</p>
+    </div>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

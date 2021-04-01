@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-app {
+    margin-top: 10%;
+    width: 600px;
+    background-color: rgb(38, 67, 163);
+    color: #fff;
+    text-align: center;
+}
+
+.header-app {
+    background-color: coral;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.papan-score {
+    position: relative;
+    margin: 20px 25%;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+
+.score {
+    font-size: 1.5rem;
+}
+
+.lambang {
+    display: inline;
+    background-color: coral;
+    padding: 5px;
+}
+
+#user-label {
+    position: absolute;
+    left: -20px;
+}
+
+#comp-label {
+    position: absolute;
+    right: -20px;
+}
+
+.hasil {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.hasil p {
+    font-size: 1.2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.pesan-aksi {
+    margin: 15px auto;
+}
